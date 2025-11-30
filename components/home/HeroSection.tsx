@@ -35,14 +35,10 @@ export const HeroSection = () => {
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-32 pb-20 md:pt-40 lg:pt-48">
-            <div className="max-w-3xl">
-            <div className="inline-block px-6 py-1 mb-6 border border-orange-500/50 rounded-md bg-orange-500/10 backdrop-blur-sm">
-              <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">
-                Global Excellence
-              </span>
-              </div>
-                {/* rest of your hero content */}
-                      </div>
+                <div className="max-w-3xl">
+                    <div className="inline-block px-4 py-1 mb-6 border border-orange-500/50 rounded-md bg-orange-500/10 backdrop-blur-sm">
+                        <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">Global Excellence</span>
+                    </div>
                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-8">
                         Building the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Future</span><br />
                         Transforming Today.

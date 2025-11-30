@@ -24,7 +24,7 @@ export default function HomePage() {
     name: "Fasmala Pvt. Ltd.",
     alternateName: "Fasmala",
     url: "https://fasmala.com",
-    logo: "https://fasmala.com/images/fasmala-logo.png",
+    logo: "public/images/1.jpg.jpg",
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
     address: {
       "@type": "PostalAddress",

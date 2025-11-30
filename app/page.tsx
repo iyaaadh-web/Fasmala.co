@@ -21,10 +21,9 @@ export default function HomePage() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Fasmala Pvt. Ltd.",
     alternateName: "Fasmala",
     url: "https://fasmala.com",
-    logo: "public/images/1.jpg.jpg",
+    logo: "https://fasmala.com/wp-content/uploads/2025/07/Untitled-design-300x101.jpg",
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
     address: {
       "@type": "PostalAddress",

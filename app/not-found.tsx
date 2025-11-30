@@ -1,3 +1,4 @@
+// app/404/page.tsx
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 
@@ -10,7 +11,7 @@ export default function NotFound() {
                 <p className="text-xl text-slate-600 mb-8">
                     Sorry, we couldn't find the page you're looking for. The page may have been moved or deleted.
                 </p>
-                <div className="flex gap-4 justify-center">
+                <div className="flex gap-4 justify-center flex-wrap">
                     <Link href="/">
                         <Button>Go Home</Button>
                     </Link>
@@ -22,3 +23,6 @@ export default function NotFound() {
         </div>
     );
 }
+
+}
+

@@ -23,10 +23,6 @@ export const Footer = () => (
                 <div className="flex gap-4">
                     <a href="https://linkedin.com/company/fasmala" aria-label="Visit our LinkedIn page" className="hover:text-orange-600 transition-colors">
                         <Linkedin size={20} />
-                    </a>
-                    <a href="https://twitter.com/fasmala" aria-label="Visit our Twitter page" className="hover:text-orange-600 transition-colors">
-                        <Twitter size={20} />
-                    </a>
                     <a href="https://facebook.com/fasmala" aria-label="Visit our Facebook page" className="hover:text-orange-600 transition-colors">
                         <Facebook size={20} />
                     </a>
@@ -96,3 +92,4 @@ export const Footer = () => (
         </div>
     </footer>
 );
+

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
     images: [
       {
-        url: "/images/fasmala-logo.png",
+        url: "public/images/type logo 1.png",
         width: 1200,
         height: 630,
         alt: "Fasmala Pvt. Ltd. Logo",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fasmala Pvt. Ltd. - Building Bridges Across Industries",
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
-    images: ["/images/fasmala-logo.png"],
+    images: ["/public/images/type logo 1.png"],
   },
   robots: {
     index: true,

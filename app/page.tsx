@@ -21,6 +21,7 @@ export default function HomePage() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    name: "Fasmala Pvt. Ltd.",
     alternateName: "Fasmala",
     url: "https://fasmala.com",
     logo: "https://fasmala.com/wp-content/uploads/2025/07/Untitled-design-300x101.jpg",

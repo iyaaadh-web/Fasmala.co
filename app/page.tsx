@@ -5,7 +5,16 @@ import { HeroSection } from '@/components/home/HeroSection';
 import { CapabilitiesSection } from '@/components/home/CapabilitiesSection';
 import { Button } from '@/components/ui/Button';
 import { COMPANY } from '@/lib/data';
+import { Suspense } from "react";
+import AboutClient from "./AboutClient";
 
+export default function AboutPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <AboutClient />
+    </Suspense>
+  );
+}
 export const metadata: Metadata = {
   title: "Home",
   description: "Fasmala Pvt. Ltd. - A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy. Building the future, transforming today.",

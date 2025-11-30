@@ -10,10 +10,10 @@ export const siteConfig = {
         name: "Fasmala Pvt Ltd",
         tagline: "Multifaceted Enterprise in the Maldives",
         description: "Fasmala Pvt Ltd is a multifaceted enterprise based in the Maldives, renowned for its diverse operational scope across several key sectors. The company has established itself as a leading player in FMCG trade, travel agency services, and tax and business consultancy. Recently expanding its portfolio to include construction, security, shipping, and cleaning services.",
-        email: "info@fasmala.com",
-        phone: "+960 123 4567",
+        email: "sales@fasmala.com",
+        phone: "+960 9387414",
         address: "Maldives",
-        founded: "2020",
+        founded: "2024",
     },
 
     // SEO & Metadata
@@ -33,14 +33,11 @@ export const siteConfig = {
             "cleaning services",
             "Maldives tourism"
         ],
-        twitterHandle: "@fasmala",
-        ogImage: "/og-image.jpg",
     },
 
     // Social Media Links
     social: {
         facebook: "https://facebook.com/fasmala",
-        twitter: "https://twitter.com/fasmala",
         linkedin: "https://linkedin.com/company/fasmala",
         instagram: "https://instagram.com/fasmala",
     },
@@ -70,8 +67,8 @@ export const contactInfo = {
         {
             icon: "Mail",
             title: "Email",
-            value: "info@fasmala.com",
-            href: "mailto:info@fasmala.com",
+            value: "sales@fasmala.com",
+            href: "mailto:sales@fasmala.com",
         },
         {
             icon: "Phone",
@@ -87,3 +84,4 @@ export const contactInfo = {
         },
     ],
 };
+

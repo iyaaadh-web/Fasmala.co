@@ -34,14 +34,14 @@ export const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-32 pb-20 md:py-20">
-                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-8">
+            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-32 pb-20 md:py-20"  </div>
+                    <div <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight mb-8">
                         Building the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Future</span><br />
                         Transforming Today.
-                    </h1>
-                    <p className="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
+                    </h1> </div>
+                    <div> <p className="text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl">
                         {COMPANY.desc} We partner with leaders in business and society to tackle their most important challenges and capture their greatest opportunities.
-                    </p>
+                    </p>  </div>
                     <div className="flex flex-wrap gap-4">
                         <Link href="/contact">
                             <Button>Start a Conversation</Button>
@@ -74,5 +74,6 @@ export const HeroSection = () => {
         </section>
     );
 };
+
 
 

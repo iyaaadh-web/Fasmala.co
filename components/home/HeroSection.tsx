@@ -1,5 +1,5 @@
-'use client';
 
+'use client';
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { ShieldCheck } from 'lucide-react';
@@ -78,3 +78,4 @@ export const HeroSection = () => {
         </section>
     );
 };
+

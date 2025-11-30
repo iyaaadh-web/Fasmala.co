@@ -1,26 +1,46 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/Button';
+"use client"; // Required because useSearchParams is a client-side hook
 
-export default function NotFound() {
-    return (
-        <div className="min-h-screen flex items-center justify-center bg-slate-50 px-4">
-            <div className="text-center max-w-2xl">
-                <h1 className="text-9xl font-bold text-orange-600 mb-4">404</h1>
-                <h2 className="text-4xl font-bold text-slate-900 mb-4">Page Not Found</h2>
-                <p className="text-xl text-slate-600 mb-8">
-                    Sorry, we couldn't find the page you're looking for. The page may have been moved or deleted.
-                </p>
-                <div className="flex gap-4 justify-center">
-                    <Link href="/">
-                        <Button>Go Home</Button>
-                    </Link>
-                    <Link href="/contact">
-                        <Button variant="secondary">Contact Support</Button>
-                    </Link>
-                </div>
-            </div>
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
+import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "404 - Page Not Found",
+};
+
+function NotFoundContent() {
+  const searchParams = useSearchParams();
+  // Example: Get a query param
+  const error = searchParams.get("error") || "Page not found";
+
+  return (
+    <main className="grid min-h-screen place-items-center px-6 py-24 sm:py-32 lg:px-8">
+      <div className="text-center">
+        <p className="text-2xl font-semibold text-indigo-600">404</p>
+        <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          {error}
+        </h1>
+        <p className="mt-6 text-base leading-7 text-gray-600">
+          Sorry, we couldn’t find the page you’re looking for.
+        </p>
+        <div className="mt-10">
+          <Link
+            href="/"
+            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+          >
+            Go back home
+          </Link>
         </div>
-    );
+      </div>
+    </main>
+  );
 }
 
-
+export default function NotFound() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <NotFoundContent />
+    </Suspense>
+  );
+}

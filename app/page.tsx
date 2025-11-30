@@ -34,13 +34,12 @@ export default function HomePage() {
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+44-20-7123-4567",
+      telephone: "+960 9387414",
       contactType: "customer service",
-      email: "contact@nexglobal.com"
+      email: "sales@gfasmala.com"
     },
     sameAs: [
       "https://www.linkedin.com/company/fasmala",
-      "https://twitter.com/fasmala",
       "https://www.facebook.com/fasmala"
     ],
     founder: {

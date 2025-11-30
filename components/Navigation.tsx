@@ -38,7 +38,7 @@ export const Navigation = () => {
                     className="text-2xl font-bold text-white tracking-tighter cursor-pointer flex items-center gap-2"
                 >
                     <Image
-                        src="/images/fasmala-logo.png"
+                        src="public/images/type logo 1.png"
                         alt="Logo"
                         width={40}
                         height={40}
@@ -150,3 +150,4 @@ export const Navigation = () => {
         </nav>
     );
 };
+

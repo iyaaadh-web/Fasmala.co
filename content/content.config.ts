@@ -13,7 +13,7 @@ export const siteConfig = {
         email: "sales@fasmala.com",
         phone: "+960 9387414",
         address: "Maldives",
-        founded: "2024",
+        founded: "2020",
     },
 
     // SEO & Metadata
@@ -33,11 +33,14 @@ export const siteConfig = {
             "cleaning services",
             "Maldives tourism"
         ],
+        twitterHandle: "@fasmala",
+        ogImage: "/og-image.jpg",
     },
 
     // Social Media Links
     social: {
         facebook: "https://facebook.com/fasmala",
+        twitter: "https://twitter.com/fasmala",
         linkedin: "https://linkedin.com/company/fasmala",
         instagram: "https://instagram.com/fasmala",
     },
@@ -67,8 +70,8 @@ export const contactInfo = {
         {
             icon: "Mail",
             title: "Email",
-            value: "sales@fasmala.com",
-            href: "mailto:sales@fasmala.com",
+            value: "info@fasmala.com",
+            href: "mailto:info@fasmala.com",
         },
         {
             icon: "Phone",
@@ -84,4 +87,3 @@ export const contactInfo = {
         },
     ],
 };
-

@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+
+  /* Light Theme Colors (oklch) */
+  --background: 100% 0 0;
+  --foreground: 14.5% 0 0;
+  --card: 100% 0 0;
+  --card-foreground: 14.5% 0 0;
+  --popover: 100% 0 0;
+  --popover-foreground: 14.5% 0 0;
+  --primary: 20.5% 0 0;
+  --primary-foreground: 98.5% 0 0;
+  --secondary: 97% 0 0;
+  --secondary-foreground: 20.5% 0 0;
+  --muted: 97% 0 0;
+  --muted-foreground: 55.6% 0 0;
+  --accent: 97% 0 0;
+  --accent-foreground: 20.5% 0 0;
+  --destructive: 57.7% 0.245 27.325;
+  --destructive-foreground: 57.7% 0.245 27.325;
+  --border: 92.2% 0 0;
+  --input: 92.2% 0 0;
+  --ring: 70.8% 0 0;
+
+  --radius: 0.625rem;
+}
+
+.dark {
+  /* Dark Theme Colors (oklch) */
+  --background: 14.5% 0 0;
+  --foreground: 98.5% 0 0;
+  --card: 14.5% 0 0;
+  --card-foreground: 98.5% 0 0;
+  --popover: 14.5% 0 0;
+  --popover-foreground: 98.5% 0 0;
+  --primary: 98.5% 0 0;
+  --primary-foreground: 20.5% 0 0;
+  --secondary: 26.9% 0 0;
+  --secondary-foreground: 98.5% 0 0;
+  --muted: 26.9% 0 0;
+  --muted-foreground: 70.8% 0 0;
+  --accent: 26.9% 0 0;
+  --accent-foreground: 98.5% 0 0;
+  --destructive: 39.6% 0.141 25.723;
+  --destructive-foreground: 63.7% 0.237 25.331;
+  --border: 26.9% 0 0;
+  --input: 26.9% 0 0;
+  --ring: 43.9% 0 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: oklch(var(--background));
+  color: oklch(var(--foreground));
+}
+
+/* Animation Keyframes */
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Utility Classes */
+.animate-scroll {
+  animation: infinite-scroll 60s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll {
+    animation-play-state: paused;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.snap-stop-always {
+  scroll-snap-stop: always;
+}

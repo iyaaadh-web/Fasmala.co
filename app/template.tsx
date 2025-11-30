@@ -1,9 +1,10 @@
+// app/template.tsx
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-export default function Template({ children }: { children: React.ReactNode }) {
+function TemplateContent({ children }: { children: React.ReactNode }) {
     const [displayChildren, setDisplayChildren] = useState(children);
     const [isAnimating, setIsAnimating] = useState(false);
     const pathname = usePathname();
@@ -25,10 +26,16 @@ export default function Template({ children }: { children: React.ReactNode }) {
     }, [children, pathname, searchParams]);
 
     return (
-        <div
-            style={{ transformOrigin: 'top' }}
-        >
+        <div style={{ transformOrigin: 'top' }}>
             {displayChildren}
         </div>
+    );
+}
+
+export default function Template({ children }: { children: React.ReactNode }) {
+    return (
+        <Suspense fallback={<div className="min-h-screen" />}>
+            <TemplateContent>{children}</TemplateContent>
+        </Suspense>
     );
 }

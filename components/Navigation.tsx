@@ -42,7 +42,6 @@ export const Navigation = () => {
                         alt="Logo"
                         width={40}
                         height={80}
-                        fill
                         className="object-contain filter invert brightness-0"
                         priority
                     />
@@ -152,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

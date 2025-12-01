@@ -44,7 +44,6 @@ export const Navigation = () => {
                         height={100}
                         fill
                         className="object-contain filter invert brightness-0"
-                        className="object-contain"
                         priority
                     />
                      {/* COMPANY.name removed */}
@@ -153,6 +152,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

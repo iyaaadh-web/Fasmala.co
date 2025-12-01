@@ -40,8 +40,8 @@ export const Navigation = () => {
                     <Image
                         src="/images/type-logo-1.png"
                         alt="Logo"
-                        width={100}
-                        height={100}
+                        width={40}
+                        height={80}
                         fill
                         className="object-contain filter invert brightness-0"
                         priority
@@ -152,6 +152,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

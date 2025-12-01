@@ -42,7 +42,7 @@ export const Navigation = () => {
                         alt="Logo"
                         width={300}
                         height={200}
-                        className="object-contain invert brightness-150"
+                        className="object-contain invert brightness-100"
                         priority
                     />
                      {/* COMPANY.name removed */}
@@ -151,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

@@ -42,7 +42,7 @@ export const Navigation = () => {
                         alt="Logo"
                         width={300}
                         height={200}
-                        className="object-contain brightness-0 saturate-100 invert hue-rotate-180""
+                        className="object-contain invert hue-rotate-180 brightness-150 saturate-100"
                         priority
                     />
                      {/* COMPANY.name removed */}
@@ -151,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

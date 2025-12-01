@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export default function CapabilitiesPage() {
     return (
-        <div className="pt-32 pb-40 min-h-screen bg-slate-50">
+        <div className="pt-40 pb-48 min-h-screen bg-slate-50">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="max-w-3xl mb-16">
                     <h1 className="text-5xl font-bold text-slate-900 mb-6">Our Capabilities</h1>
@@ -53,4 +53,5 @@ export default function CapabilitiesPage() {
         </div>
     );
 }
+
 

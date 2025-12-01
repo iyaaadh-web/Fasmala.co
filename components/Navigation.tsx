@@ -23,7 +23,7 @@ export const Navigation = () => {
 
     const navClass = scrolled
         ? "fixed top-4 left-4 right-4 max-w-7xl mx-auto bg-slate-900/95 backdrop-blur-md rounded-xl shadow-2xl py-3 px-6 z-50 transition-all duration-500 border border-slate-700/50"
-        : "fixed top-0 w-full bg-slate-900/50 backdrop-blur-sm md:bg-slate-900 md:backdrop-blur-none py-6 px-8 z-50 transition-all duration-500 border-b border-slate-800/50 md:border-slate-800";
+        : "fixed top-0 w-full bg-slate-900/50 backdrop-blur-sm md:bg-slate-900 md:backdrop-blur-none py-4 px-4 z-50 transition-all duration-300 border-b border-slate-800/50 md:border-slate-800";
 
     const linkClass = "text-sm font-medium text-slate-300 hover:text-white transition-colors cursor-pointer flex items-center gap-1 uppercase tracking-wider";
     const activeLinkClass = "text-orange-500";
@@ -151,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

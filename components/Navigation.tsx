@@ -34,18 +34,19 @@ export const Navigation = () => {
         <nav className={navClass}>
             <div className="flex items-center justify-between max-w-7xl mx-auto">
                 <Link
+                   <Link
                     href="/"
-                    className="text-2xl font-bold text-white tracking-tighter cursor-pointer flex items-center gap-2"
-                >
+                    className="text-2xl font-bold text-white tracking-tighter cursor-pointer flex items-center gap-2">
+                    <div className="relative w-12 h-12">
                     <Image
-                        src="/images/type-logo-1.png"
-                        alt="Logo"
-                        width={100}
-                        height={100}
-                        className="object-contain"
-                        priority
-                    />
-                     {/* COMPANY.name removed */}
+                    src="/images/type-logo-1.png"
+                    alt="Fasmala Logo"
+                    fill
+                    className="object-contain filter invert brightness-0"
+                    priority />
+            </div>
+                    {/* COMPANY.name removed */}
+                       
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8">
@@ -151,6 +152,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

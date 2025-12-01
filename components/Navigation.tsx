@@ -40,8 +40,8 @@ export const Navigation = () => {
                     <Image
                         src="/images/type-logo-1.png"
                         alt="Logo"
-                        width={40}
-                        height={40}
+                        width={100}
+                        height={100}
                         className="object-contain"
                         priority
                     />
@@ -151,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

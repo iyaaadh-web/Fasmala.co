@@ -43,6 +43,7 @@ export const Navigation = () => {
                         width={40}
                         height={40}
                         className="object-contain"
+                        priority
                     />
                      {/* COMPANY.name removed */}
                 </Link>
@@ -150,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

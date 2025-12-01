@@ -24,13 +24,13 @@ export default function HomePage() {
     name: "Fasmala Pvt. Ltd.",
     alternateName: "Fasmala",
     url: "https://fasmala.com",
-    logo: "public/images/type logo 1.png",
+    logo: "/images/type-logo-1.png",
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "123 Business District, Global Tower, Floor 45",
-      addressLocality: "London",
-      addressCountry: "UK"
+      streetAddress: "M.Laalubaagu Irumatheebai, Asurumaa Goalhi,",
+      addressLocality: "Male'",
+      addressCountry: "Maldives"
     },
     contactPoint: {
       "@type": "ContactPoint",

@@ -44,7 +44,7 @@ export const Navigation = () => {
                         height={40}
                         className="object-contain"
                     />
-                    {COMPANY.name}
+                     {/* COMPANY.name removed */}
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8">
@@ -150,4 +150,5 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 

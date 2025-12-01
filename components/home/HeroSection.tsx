@@ -34,7 +34,7 @@ export const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-32 pb-20 md:pt-40 lg:pt-48">
+            <div className="relative z-10 max-w-7xl mx-auto px-6 w-full pt-32 pb-20 md:pt-35 lg:pt-48">
                 <div className="max-w-3xl">
                     <div className="inline-block px-4 py-1 mb-6 border border-orange-500/50 rounded-md bg-orange-500/10 backdrop-blur-sm">
                         <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">Global Excellence</span>
@@ -78,3 +78,4 @@ export const HeroSection = () => {
         </section>
     );
 };
+

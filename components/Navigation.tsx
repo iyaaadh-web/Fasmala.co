@@ -40,9 +40,9 @@ export const Navigation = () => {
                     <Image
                         src="/images/type-logo-1.png"
                         alt="Logo"
-                        width={400}
-                        height={300}
-                        className="object-contain invert brightness-[10000%]"
+                        width={300}
+                        height={200}
+                        className="object-contain brightness-0 saturate-100 invert hue-rotate-180""
                         priority
                     />
                      {/* COMPANY.name removed */}
@@ -151,6 +151,7 @@ export const Navigation = () => {
         </nav>
     );
 };
+
 
 
 

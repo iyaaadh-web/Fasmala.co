@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/type-logo-1.png", // FIXED
-        width: 1500,
-        height: 1000,
+        width: 800,
+        height: 800,
         alt: "Fasmala Pvt. Ltd. Logo",
       },
     ],

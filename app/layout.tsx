@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: "A multidisciplinary powerhouse driving value in Tourism, Construction, Trade, and Consultancy.",
     images: [
       {
-        url: "public/images/type logo 1.png",
+        url: "/public/images/type-logo-1.png",
         width: 1200,
         height: 630,
         alt: "Fasmala Pvt. Ltd. Logo",

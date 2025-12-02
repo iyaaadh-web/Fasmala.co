@@ -23,13 +23,6 @@ export const Footer = () => (
                     />
                     <span>{COMPANY.name}</span>
                 </div>
-                {/* ... rest of your footer */}
-            </div>
-            {/* ... other columns */}
-        </div>
-        {/* ... bottom part */}
-    </footer>
-);
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
                     Building the future, honoring the past.
@@ -106,6 +99,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

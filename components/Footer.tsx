@@ -11,19 +11,25 @@ export const Footer = () => (
     <footer className="bg-slate-900 text-slate-300 pt-20 pb-10">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-slate-800 pb-12">
             <div className="col-span-1 md:col-span-1">
-            <div className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
-                
-            {/* LOGO GOES HERE */}
-            <img
-            src="/images/type-logo-1.png"
-            alt="Logo"
-            width={100}
-            height={100}
-            className="object-contain invert brightness-100"
-            priority // ← now 100% valid! 
-            />
-          <span>{COMPANY.name}</span>
+                <div className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                    {/* ← FIXED: Use next/image + priority is now valid */}
+                    <Image
+                        src="/images/type-logo-1.png"
+                        alt={`${COMPANY.name} logo`}
+                        width={100}
+                        height={100}
+                        className="object-contain invert brightness-100"
+                        priority // ← This is now allowed!
+                    />
+                    <span>{COMPANY.name}</span>
+                </div>
+                {/* ... rest of your footer */}
+            </div>
+            {/* ... other columns */}
         </div>
+        {/* ... bottom part */}
+    </footer>
+);
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
                     Building the future, honoring the past.
@@ -100,6 +106,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

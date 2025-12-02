@@ -47,6 +47,13 @@ export const SERVICES: Service[] = [
         icon: <Briefcase size={32} />,
         desc: 'Data-driven insights to navigate complex B2B market landscapes.',
         image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800'
+    },
+    {
+        id: 'Jobzzy.com',
+        title: 'Strategic Consultancy',
+        icon: <Briefcase size={32} />,
+        desc: 'Data-driven insights to navigate complex B2B market landscapes.',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800'
     }
 ];
 
@@ -81,3 +88,4 @@ export const TIMELINE: TimelineItem[] = [
     { year: "2020", title: "Digital Transformation", desc: "Launched proprietary AI-driven market analysis tools." },
     { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." },
 ];
+

@@ -21,7 +21,8 @@ export const Footer = () => (
                         className="object-contain invert brightness-100"
                         priority // ← This is now allowed!
                     />
-                    <span>{COMPANY.name}</span>
+                    {/* Remove this line completely */}
+                    {/* <span>{COMPANY.name}</span> */}
                 </div>
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
@@ -99,6 +100,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

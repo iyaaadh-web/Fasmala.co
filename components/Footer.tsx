@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { siteConfig } from '@/content/content.config';
 import Link from 'next/link';
 import {
@@ -13,16 +14,15 @@ export const Footer = () => (
             <div className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
                 
             {/* LOGO GOES HERE */}
-            <img 
-             src="/images/type-logo-1.png"
-             alt="Logo"
-             width={100}
-             height={100}
-             className="object-contain invert brightness-100"
-             priority
+            <img
+            src="/images/type-logo-1.png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className="object-contain invert brightness-100"
+            priority // ← now 100% valid! 
             />
-
-            {COMPANY.name}
+          <span>{COMPANY.name}</span>
         </div>
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
@@ -100,6 +100,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

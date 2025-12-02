@@ -10,12 +10,20 @@ export const Footer = () => (
     <footer className="bg-slate-900 text-slate-300 pt-20 pb-10">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-slate-800 pb-12">
             <div className="col-span-1 md:col-span-1">
-                <div className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
-                    <div className="w-8 h-8 bg-orange-600 rounded-md flex items-center justify-center text-white">
-                        <TrendingUp size={20} strokeWidth={3} />
-                    </div>
-                    {COMPANY.name}
-                </div>
+            <div className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                
+            {/* LOGO GOES HERE */}
+            <img 
+             src="/images/type-logo-1.png"
+             alt="Logo"
+             width={100}
+             height={100}
+             className="object-contain invert brightness-100"
+             priority
+            />
+
+            {COMPANY.name}
+        </div>
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
                     Building the future, honoring the past.
@@ -76,8 +84,8 @@ export const Footer = () => (
                     </li>
                     <li className="flex items-center gap-3">
                         <Mail size={18} className="text-orange-600 shrink-0" />
-                        <a href="mailto:info@fasmala.com" className="hover:text-orange-400 transition-colors">
-                            siteConfig.company.email
+                        <a href="mailto:sales@fasmala.com" className="hover:text-orange-400 transition-colors">
+                            sales@fasmala.com
                         </a>
                     </li>
                 </ul>
@@ -92,5 +100,6 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 

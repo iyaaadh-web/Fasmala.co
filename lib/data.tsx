@@ -53,7 +53,7 @@ export const SERVICES: Service[] = [
         title: 'Jobszzy Maldives',
         icon: <Briefcase size={32} />,
         desc: 'Data-driven insights to navigate complex B2B market landscapes.',
-        "https://images.unsplash.com/photo-1521791136064-7986c2920216?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjcnVpdG1lbnR8ZW58MHx8MHx8fDA%3D?auto=format&fit=crop&q=80&w=800" 
+        "https://images.unsplash.com/photo-1521791136064-7986c2920216?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjcnVpdG1lbnR8ZW58MHx8MHx8fDA%3D" 
     }
 ];
 
@@ -88,6 +88,7 @@ export const TIMELINE: TimelineItem[] = [
     { year: "2020", title: "Digital Transformation", desc: "Launched proprietary AI-driven market analysis tools." },
     { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." },
 ];
+
 
 
 

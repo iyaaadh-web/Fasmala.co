@@ -14,9 +14,9 @@ export const Footer = () => (
                 <div className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                     {/* ← FIXED: Use next/image + priority is now valid */}
                     <Image
-                        src="/images/type-logo-1.png"
+                        src="/images/type-logo-1.png" // your exact logo with bird icon
                         alt={`${COMPANY.name} logo`}
-                        width={260}  // looks good on all screens 
+                        width={260}  
                         height={96}
                         className="object-contain invert brightness-100"
                         priority // ← This is now allowed!
@@ -24,6 +24,7 @@ export const Footer = () => (
                     {/* Remove this line completely */}
                     {/* <span>{COMPANY.name}</span> */}
                 </div>
+                {/* Description – starts exactly where the text in the logo ends */} 
                 <p className="text-sm leading-relaxed mb-6 text-slate-400">
                     We transform businesses through strategic innovation and industrial expertise.
                     Building the future, honoring the past.
@@ -100,6 +101,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

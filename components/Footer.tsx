@@ -16,8 +16,8 @@ export const Footer = () => (
                     <Image
                         src="/images/type-logo-1.png"
                         alt={`${COMPANY.name} logo`}
-                        width={500}
-                        height={500}
+                        width={260}  // looks good on all screens 
+                        height={96}
                         className="object-contain invert brightness-100"
                         priority // ← This is now allowed!
                     />
@@ -100,6 +100,7 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
 
 
 

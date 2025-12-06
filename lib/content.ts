@@ -3,8 +3,7 @@
 
 import {
     siteConfig,
-    officeHours,
-    contactInfo
+    officeHours
 } from '@/content/content.config';
 import { Metadata } from 'next';
 
@@ -93,10 +92,7 @@ export const getContent = {
     seo: () => siteConfig.seo,
     
     // Office Hours
-    officeHours: () => officeHours,
-    
-    // Contact Information
-    contactInfo: () => contactInfo,
+    officeHours: () => officeHours
 };
 
 // ========================================
@@ -185,6 +181,5 @@ export function getPageMetadata(page: 'home' | 'about' | 'capabilities' | 'conta
 // Export content objects for direct imports if needed
 export {
     siteConfig,
-    officeHours,
-    contactInfo
+    officeHours
 };

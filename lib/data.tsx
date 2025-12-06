@@ -82,10 +82,6 @@ export const ABOUT_CARDS: AboutCardItem[] = [
 ];
 
 export const TIMELINE: TimelineItem[] = [
-    { year: "1998", title: "Foundation", desc: "Established as a small boutique consultancy firm in London." },
-    { year: "2005", title: "Expansion into Construction", desc: "Acquired BuildRight Inc, opening our infrastructure division." },
-    { year: "2012", title: "Global Trade Network", desc: "Opened key logistics hubs in Singapore and Dubai." },
-    { year: "2020", title: "Digital Transformation", desc: "Launched proprietary AI-driven market analysis tools." },
     { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." },
 ];
 

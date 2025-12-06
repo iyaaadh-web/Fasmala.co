@@ -81,12 +81,11 @@ export const Footer = () => (
                     </li>
                     <li className="flex items-center gap-3">
                         <Phone size={18} className="text-orange-600 shrink-0" />
-                        <span>{siteConfig.company.phone}</span>
+                        <a href={siteConfig.company.phoneHref} className="hover:text-orange-400 transition-colors">{siteConfig.company.phone}</a>
                     </li>
                     <li className="flex items-center gap-3">
                         <Mail size={18} className="text-orange-600 shrink-0" />
-                        <a href="mailto:sales@fasmala.com" className="hover:text-orange-400 transition-colors">
-                            sales@fasmala.com
+                        <a href={siteConfig.company.emailHref} className="hover:text-orange-400 transition-colors">{siteConfig.company.email}
                         </a>
                     </li>
                 </ul>

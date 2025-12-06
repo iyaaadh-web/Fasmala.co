@@ -13,6 +13,9 @@ export const siteConfig = {
         email: "sales@fasmala.com",
         phone: "+960 9387414",
         address: "Maldives",
+        emailHref: "mailto:info@fasmala.com",
+        phoneHref: "https://wa.me/+9609387414",
+        locationHref: "#",
         founded: "2020",
     },
 
@@ -64,26 +67,3 @@ export const officeHours = {
     ],
 };
 
-// Contact Information
-export const contactInfo = {
-    items: [
-        {
-            icon: "Mail",
-            title: "Email",
-            value: "info@fasmala.com",
-            href: "mailto:info@fasmala.com",
-        },
-        {
-            icon: "Phone",
-            title: "Phone",
-            value: "+960 938-7414",
-            href: "https://wa.me/+9609387414",
-        },
-        {
-            icon: "MapPin",
-            title: "Location",
-            value: "Maldives",
-            href: "#",
-        },
-    ],
-};

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { COMPANY, ABOUT_CARDS, TIMELINE } from '@/lib/data';
+import { COMPANY, ABOUT_CARDS, TIMELINE, FOUNDER } from '@/lib/data';
 import { useActiveCardObserver } from '@/lib/hooks';
 import { TextPagination } from '@/components/ui/Button';
 
@@ -30,16 +30,16 @@ export default function AboutPage() {
                         </div>
 
                         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden shrink-0 border-4 border-white shadow-xl z-10 relative">
-                            <Image src="/images/founder.jpeg" alt="Founder" fill className="object-cover" />
+                            <Image src={FOUNDER.image} alt="Founder" fill className="object-cover" />
                         </div>
                         <div className="flex-1 relative z-10">
                             <h2 className="text-3xl font-bold text-slate-900 mb-6">A Message from our founder</h2>
                             <div className="text-slate-600 text-lg italic leading-relaxed mb-6">
-                                &quot;At {COMPANY.name}, we believe that true progress lies at the intersection of innovation and integrity. For 25 years, we have not just built structures or managed supply chains; we have built trust. Our vision remains steadfast: to empower our partners to thrive in an ever-evolving global landscape.&quot;
+                                &quot; {FOUNDER.message} &quot;
                             </div>
                             <div>
-                                <div className="font-bold text-slate-900">Moosa Iyad Ibrahim</div>
-                                <div className="text-orange-600 text-sm font-semibold">Founder & Chairman</div>
+                                <div className="font-bold text-slate-900">{FOUNDER.name}</div>
+                                <div className="text-orange-600 text-sm font-semibold">{FOUNDER.title}</div>
                             </div>
                         </div>
                     </div>

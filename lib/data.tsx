@@ -1,5 +1,5 @@
 import { Plane, HardHat, Globe, Briefcase } from 'lucide-react';
-import type { CompanyInfo, Service, TimelineItem, AboutCardItem } from './types';
+import type { CompanyInfo, Service, TimelineItem, AboutCardItem, Founder } from './types';
 
 export const COMPANY: CompanyInfo = {
     name: "Fasmala Pvt Ltd",
@@ -66,6 +66,13 @@ export const SERVICES: Service[] = [
     }
 ];
 
+export const FOUNDER: Founder = {
+    name: 'Mr. Moosa Iyad Ibrahim',
+    title: 'Founder & Chairman',
+    message: 'At Fasmala, we believe that true progress lies at the intersection of innovation and integrity. For 1 year, we have not just built structures or managed supply chains; we have built trust. Our vision remains steadfast: to empower our partners to thrive in an ever-evolving global landscape.',
+    image: '/images/founder.jpeg'
+}
+
 export const ABOUT_CARDS: AboutCardItem[] = [
     {
         id: 'vision',
@@ -90,8 +97,11 @@ export const ABOUT_CARDS: AboutCardItem[] = [
     }
 ];
 
+
 export const TIMELINE: TimelineItem[] = [
-    { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." }
+    { year: "2024",
+    title: "Sustainable Future",
+    desc: "Committed to Carbon Neutrality across all sectors by 2030." }
 ];
 
 

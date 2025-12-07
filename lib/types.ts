@@ -29,6 +29,13 @@ export interface TimelineItem {
     desc: string;
 }
 
+export interface Founder {
+    name: string;
+    title: string;
+    message: string;
+    image: string;
+}
+
 export interface AboutCardItem {
     id: string;
     title: string;

@@ -15,8 +15,7 @@ export const COMPANY: CompanyInfo = {
 };
 
 export const PARTNERS: string[] = [
-    "AeroDynamics Global", "BuildRight Inc", "Horizon Logistics", "Summit Financial",
-    "EcoConstruct", "Pacific Trade Route", "Vanguard Systems", "Apex Hospitality"
+    "Stone Hotel Maldives", "Mango Mart", "Multi", "Sunny Canopy", "Gangehi Island Resort"
 ];
 
 export const SERVICES: Service[] = [
@@ -25,35 +24,45 @@ export const SERVICES: Service[] = [
         title: 'Tourism & Hospitality',
         icon: <Plane size={32} />,
         desc: 'Creating sustainable destination strategies and luxury hospitality infrastructures.',
-        image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800'
+        keypoints:['Tourism', 'Hospitality', 'Destination Strategies'],
+        image: "/images/services/tourism.png",
+        link: 'http://www.fasmalatravels.com/'
     },
     {
         id: 'construction',
         title: 'Construction & Engineering',
         icon: <HardHat size={32} />,
         desc: 'Delivering large-scale industrial and commercial infrastructure with precision.',
-        image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800'
+        keypoints:['Construction', 'Engineering', 'Infrastructure'],
+        image: '/images/services/construction.png',
+        link: 'null'
     },
     {
         id: 'trade',
         title: 'Global Trade',
         icon: <Globe size={32} />,
         desc: 'Optimizing supply chains and facilitating cross-border commercial exchange.',
-        image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800'
+        keypoints:['Trade', 'Supply Chains', 'Cross-Border Commerce'],
+        image: '/images/services/globalTrade.png',
+        link: 'null'
     },
     {
         id: 'consultancy',
         title: 'Strategic Consultancy',
         icon: <Briefcase size={32} />,
         desc: 'Data-driven insights to navigate complex B2B market landscapes.',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800'
+        keypoints:['Consultancy', 'Strategic Planning', 'Market Analysis'],
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800',
+        link: 'null'
     },
     {
         id: 'Jobzzy.com',
         title: 'Jobszzy Maldives',
         icon: <Briefcase size={32} />,
-        desc: 'Data-driven insights to navigate complex B2B market landscapes.',
-        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800'
+        desc: 'Jobszzy is our HR and recruitment division, bridging the gap between employers and talented professionals. We provide comprehensive HR solutions from recruitment to workforce management.',
+        keypoints:['Recruitment', 'Workforce Management', 'HR Solutions'],
+        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800',
+        link: 'null'
     }
 ];
 
@@ -82,7 +91,7 @@ export const ABOUT_CARDS: AboutCardItem[] = [
 ];
 
 export const TIMELINE: TimelineItem[] = [
-    { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." },
+    { year: "2024", title: "Sustainable Future", desc: "Committed to Carbon Neutrality across all sectors by 2030." }
 ];
 
 

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: "About Us - Our Story & History",
-    description: "Learn about Fasmala Pvt. Ltd.'s journey since 1998. Pioneering progress in tourism, construction, trade, and consultancy with integrity and innovation.",
+    description: "Learn about Fasmala Pvt. Ltd.'s journey since 2024. Pioneering progress in tourism, construction, trade, and consultancy with integrity and innovation.",
     openGraph: {
         title: "About Fasmala Pvt. Ltd. - Our Story & History",
         description: "Discover our 25-year journey of building trust and delivering excellence across industries.",

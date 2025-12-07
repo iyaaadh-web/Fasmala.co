@@ -46,7 +46,7 @@ export default function HomePage() {
       "@type": "Person",
       name: "Moosa Iyad Ibrahim"
     },
-    foundingDate: "1998"
+    foundingDate: "2024"
   };
   return (
     <div>

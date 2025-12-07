@@ -26,10 +26,10 @@ export const HeroSection = () => {
                     loop
                     muted
                     playsInline
-                    className="w-full h-full object-cover filter brightness-[0.3] blur-sm"
+                    className="w-full h-full object-cover filter brightness-[0.8] blur-sm"
                     poster="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000"
                 >
-                    <source src="/images/221543_tiny.mp4" type="video/mp4" />
+                    <source src="/hero.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
             </div>

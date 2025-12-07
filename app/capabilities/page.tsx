@@ -33,18 +33,19 @@ export default function CapabilitiesPage() {
                             <div className="flex-1 space-y-6">
                                 <h3 className="text-3xl font-bold text-slate-900">{s.title}</h3>
                                 <p className="text-slate-600 text-lg leading-relaxed">
-                                    {s.desc} Our approach combines rigorous analysis with creative strategy. We don't just assess the market; we help you shape it.
-                                    Whether you are looking to expand infrastructure, optimize global trade routes, or redefine a tourism destination, our teams work alongside you.
+                                    {s.desc}
                                 </p>
-                                <ul className="space-y-3">
-                                    {['Strategic Planning', 'Operational Efficiency', 'Digital Implementation', 'Sustainability Audits'].map((item, i) => (
-                                        <li key={i} className="flex items-center gap-3 text-slate-700">
-                                            <div className="w-2 h-2 rounded-sm bg-orange-600"></div>
-                                            {item}
-                                        </li>
-                                    ))}
-                                </ul>
-                                <Button variant="secondary" className="mt-4">Learn More</Button>
+                                {s.keypoints && (
+                                    <ul className="space-y-3">
+                                        {s.keypoints.map((item, i) => (
+                                            <li key={i} className="flex items-center gap-3 text-slate-700">
+                                                <div className="w-2 h-2 rounded-sm bg-orange-600"></div>
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+                                <Button variant="secondary" className="mt-4">Explore</Button>
                             </div>
                         </div>
                     ))}

@@ -19,6 +19,8 @@ export interface Service {
     icon: ReactNode;
     desc: string;
     image: string;
+    keypoints?: string[]; // Optional array of key points/features for the service
+    link?: string; // Optional link to the service page
 }
 
 export interface TimelineItem {

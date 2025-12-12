@@ -1,5 +1,5 @@
 import { Plane, HardHat, Globe, Briefcase } from 'lucide-react';
-import type { CompanyInfo, Service, TimelineItem, AboutCardItem, Founder } from './types';
+import type { CompanyInfo, Service, TimelineItem, AboutCardItem, Founder, Partner} from './types';
 
 export const COMPANY: CompanyInfo = {
     name: "Fasmala Pvt Ltd",
@@ -14,8 +14,31 @@ export const COMPANY: CompanyInfo = {
     }
 };
 
-export const PARTNERS: string[] = [
-    "Stone Hotel Maldives", "Mango Mart", "Multi", "Sunny Canopy", "Gangehi Island Resort"
+export const PARTNERS: Partner[] = [
+    {
+        name: 'Stone Hotel Maldives',
+        image: '/images/partners/stone-hotel-maldives.jpeg'
+    },
+    {
+        name: 'Mango Mart',
+        image: '/images/partners/mango-mart.jpeg'
+    },
+    {
+        name: 'Multi',
+        image: '/images/partners/multi.jpeg'
+    },
+    {
+        name: 'Sunny Canopy',
+        image: '/images/partners/sunny-canopy.jpeg'
+    },
+    {
+        name: 'Gangehi Island Resort',
+        image: '/images/partners/gangehi-island-resort.jpeg'
+    },
+    {
+        name: 'notsure',
+        image: '/images/partners/notsure.jpeg'
+    }
 ];
 
 export const SERVICES: Service[] = [

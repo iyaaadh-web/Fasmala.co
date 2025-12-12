@@ -43,3 +43,8 @@ export interface AboutCardItem {
     image: string;
     label: string;
 }
+
+export interface Partner {
+    name: string;
+    image: string;
+}

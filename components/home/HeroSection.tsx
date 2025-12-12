@@ -64,11 +64,19 @@ export const HeroSection = () => {
 
                         <div className="flex w-max animate-scroll">
                             {[...PARTNERS, ...PARTNERS, ...PARTNERS, ...PARTNERS].map((partner, i) => (
-                                <div key={i} className="mx-8 flex items-center gap-3 opacity-60 grayscale">
-                                    <div className="w-10 h-10 bg-slate-700/50 rounded-md flex items-center justify-center text-white/50">
-                                        <ShieldCheck size={20} />
+                                <div key={i} className="mx-8 flex items-center gap-3 opacity-60">
+                                    <div className="w-10 h-10 bg-slate-700/50 rounded-full flex items-center justify-center text-white/50 overflow-hidden"> {/* Added rounded-full and overflow-hidden */}
+                                    {partner.image ? (
+                                        <img 
+                                        src={partner.image} 
+                                        alt={`${partner.name} logo`} 
+                                        className="w-full h-full object-contain" // Or use 'object-cover' to fill the circle (may crop)
+                                        />
+                                    ) : (
+                                        <ShieldCheck size={20} /> 
+                                    )}
                                     </div>
-                                    <span className="text-lg font-semibold text-slate-300 whitespace-nowrap">{partner}</span>
+                                    <span className="text-lg font-semibold text-slate-300 whitespace-nowrap">{partner.name}</span>
                                 </div>
                             ))}
                         </div>

@@ -36,7 +36,7 @@ export const PARTNERS: Partner[] = [
         image: '/images/partners/gangehi-island-resort.jpeg'
     },
     {
-        name: 'notsure',
+        name: 'Starry hotels',
         image: '/images/partners/notsure.jpeg'
     }
 ];
@@ -126,6 +126,7 @@ export const TIMELINE: TimelineItem[] = [
     title: "Sustainable Future",
     desc: "Committed to Carbon Neutrality across all sectors by 2030." }
 ];
+
 
 
 
